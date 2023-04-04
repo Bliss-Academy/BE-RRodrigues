@@ -1,0 +1,6 @@
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\Banco.Data\obj\Debug\Banco.Data.csproj.AssemblyReference.cache
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\Banco.Data\obj\Debug\Banco.Data.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\Banco.Data\bin\Debug\Banco.Data.dll
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\Banco.Data\bin\Debug\Banco.Data.pdb
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\Banco.Data\obj\Debug\Banco.Data.dll
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\Banco.Data\obj\Debug\Banco.Data.pdb

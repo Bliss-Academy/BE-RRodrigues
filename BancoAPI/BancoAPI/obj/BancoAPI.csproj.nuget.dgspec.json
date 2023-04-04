@@ -4,6 +4,21 @@
     "C:\\Users\\Rodrigo Rodrigues\\Documents\\BE-RRodrigues\\BancoAPI\\BancoAPI\\BancoAPI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Rodrigo Rodrigues\\Documents\\BE-RRodrigues\\BancoAPI\\Banco.Data\\Banco.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Rodrigo Rodrigues\\Documents\\BE-RRodrigues\\BancoAPI\\Banco.Data\\Banco.Data.csproj",
+        "projectName": "Banco.Data",
+        "projectPath": "C:\\Users\\Rodrigo Rodrigues\\Documents\\BE-RRodrigues\\BancoAPI\\Banco.Data\\Banco.Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\Rodrigo Rodrigues\\Documents\\BE-RRodrigues\\BancoAPI\\BancoAPI\\BancoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -32,7 +47,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Rodrigo Rodrigues\\Documents\\BE-RRodrigues\\BancoAPI\\Banco.Data\\Banco.Data.csproj": {
+                "projectPath": "C:\\Users\\Rodrigo Rodrigues\\Documents\\BE-RRodrigues\\BancoAPI\\Banco.Data\\Banco.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -88,6 +88,15 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Banco.Data/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Banco.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Banco.Data.dll": {}
+        }
       }
     }
   },
@@ -216,10 +225,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Banco.Data/1.0.0": {
+      "type": "project",
+      "path": "../Banco.Data/Banco.Data.csproj",
+      "msbuildProject": "../Banco.Data/Banco.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Banco.Data >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -255,7 +270,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Rodrigo Rodrigues\\Documents\\BE-RRodrigues\\BancoAPI\\Banco.Data\\Banco.Data.csproj": {
+              "projectPath": "C:\\Users\\Rodrigo Rodrigues\\Documents\\BE-RRodrigues\\BancoAPI\\Banco.Data\\Banco.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

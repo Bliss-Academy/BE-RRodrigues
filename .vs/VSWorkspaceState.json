@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BancoAPI",
+    "\\BancoAPI\\Banco.Data",
+    "\\BancoAPI\\Banco.Data\\Repository",
+    "\\BancoAPI\\BancoAPI",
+    "\\BancoAPI\\BancoAPI\\Controllers"
+  ],
+  "SelectedNode": "\\BancoAPI\\Banco.Data\\Repository\\TransactionsRepository.cs",
+  "PreviewInSolutionExplorer": false
+}

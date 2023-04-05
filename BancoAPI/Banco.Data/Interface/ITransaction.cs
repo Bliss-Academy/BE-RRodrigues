@@ -16,5 +16,7 @@ namespace Banco.Data.Interface
         List<Transaction> GetAllTransactionById(string id);
 
         Transaction GetTransaction(string id);
+
+        Transaction AddTransaction(string id, string type, decimal value, DateTime dataT, string title, string description);
     }
 }

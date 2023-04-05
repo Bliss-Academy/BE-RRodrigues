@@ -28,7 +28,7 @@ namespace BancoAPI.Controllers
         }
 
         [HttpGet]
-        [Route("api/GetAllTransactions")]
+        [Route("api/GetAllTransactionsByID")]
         public ActionResult<IEnumerable<Transaction>> GetAllMembers(string id)
         {
             return transactionShow.GetAllTransactionById(id);

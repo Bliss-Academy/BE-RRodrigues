@@ -41,5 +41,11 @@ namespace Banco.Data.Repository
         {
             return lisTransanctions.FirstOrDefault(x => x.nomeConta == id);
         }
+
+        public Transaction AddTransaction(string id, string typeDTO, decimal value, DateTime dataT, string title, string description)
+        {
+            new Transaction { type = "transaction", value = 500, date = new DateTime(2015, 12, 31), title = "Ordenado", description = "Ordenado", nomeConta = "Kirtesh" },
+        }
+
     }
 }

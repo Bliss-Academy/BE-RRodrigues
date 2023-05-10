@@ -1,5 +1,6 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\BancoAPI",
     "\\BancoAPI\\Banco.Data",
@@ -8,5 +9,10 @@
     "\\BancoAPI\\BancoAPI\\Controllers"
   ],
   "SelectedNode": "\\BancoAPI\\BancoAPI\\Controllers\\WeatherForecastController.cs",
+=======
+    ""
+  ],
+  "SelectedNode": "\\C:\\Users\\Rodrigo Rodrigues\\Documents\\BE-RRodrigues",
+>>>>>>> origin/main
   "PreviewInSolutionExplorer": false
 }

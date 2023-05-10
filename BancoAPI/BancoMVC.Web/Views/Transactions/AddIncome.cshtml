@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Add Income";
+}
+<h1>Add Income:</h1>
+<form>
+    <label for="value">Valor:</label>
+    <input type="text" id="value" name="value"><br>
+
+    <label for="date">Data:</label>
+    <input type="date" id="date" name="date"><br>
+
+    <label for="title">Título:</label>
+    <input type="text" id="title" name="title"><br>
+
+    <label for="description">Descrição:</label>
+    <textarea id="description" name="description"></textarea><br>
+
+    <input type="submit" style="background-color:dodgerblue" value="Enviar">
+</form>
+
+<button type="button" class="btn btn-primary" style="background-color:darkslategrey" onclick="location.href='@Url.Action("Index","Transactions")'">Voltar a Transações</button>

@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Show Transaction";
+}
+<h1>Lista de Transações</h1>
+
+<button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("AdicionarIncome","Transactions")'">Add Income</button>
+<button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("AdicionarExpense","Transactions")'">Add Expense</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Título</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Ação</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>15/04/2023</td>
+            <td>Compra de mantimentos</td>
+            <td>Comprei alimentos para a semana</td>
+            <td>R$ 150,00</td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("EditarTransaction","Transactions")'">Editar</button>
+                <button type="button" class="btn btn-danger">Remover</button>
+            </td>
+        </tr>
+        <tr>
+            <td>14/04/2023</td>
+            <td>Pagamento de conta de luz</td>
+            <td>Conta de luz do mês</td>
+            <td>R$ 80,00</td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("EditarTransaction","Transactions")'">Editar</button>
+                <button type="button" class="btn btn-danger">Remover</button>
+            </td>
+        </tr>
+        <tr>
+            <td>13/04/2023</td>
+            <td>Recebimento de salário</td>
+            <td>Salário referente ao mês de março</td>
+            <td>R$ 3.000,00</td>
+            <td>
+                <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("EditarTransaction","Transactions")'">Editar</button>
+                <button type="button" class="btn btn-danger">Remover</button>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+
+<button type="button" class="btn btn-primary" style="background-color:darkslategrey" onclick="location.href='@Url.Action("Index","Dashboard")'">Voltar Dashboard</button>

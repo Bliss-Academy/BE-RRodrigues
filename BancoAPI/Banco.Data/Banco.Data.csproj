@@ -41,13 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Interface\IDashboard.cs" />
-    <Compile Include="Interface\ITransaction.cs" />
-    <Compile Include="Model\Dashboard.cs" />
-    <Compile Include="Model\Transaction.cs" />
+    <Compile Include="BancoDbContext.cs" />
+    <Compile Include="Entitites\EntityBase.cs" />
+    <Compile Include="Factories\DTOFactory.cs" />
+    <Compile Include="Models\DashboardDTO.cs" />
+    <Compile Include="Models\TransactionDTO.cs" />
+    <Compile Include="Entitites\AccountEntity.cs" />
+    <Compile Include="Entitites\TransactionEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\DashboardRepository.cs" />
+    <Compile Include="Repository\AccountRepository.cs" />
     <Compile Include="Repository\TransactionsRepository.cs" />
   </ItemGroup>
   <ItemGroup />

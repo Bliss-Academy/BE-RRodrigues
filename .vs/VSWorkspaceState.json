@@ -7,6 +7,6 @@
     "\\BancoAPI\\BancoAPI",
     "\\BancoAPI\\BancoAPI\\Controllers"
   ],
-  "SelectedNode": "\\BancoAPI\\Banco.Data\\Repository\\TransactionsRepository.cs",
+  "SelectedNode": "\\BancoAPI\\BancoAPI\\Controllers\\WeatherForecastController.cs",
   "PreviewInSolutionExplorer": false
 }

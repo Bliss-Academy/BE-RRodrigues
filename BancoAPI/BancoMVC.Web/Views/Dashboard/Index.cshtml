@@ -1,0 +1,55 @@
+﻿@using BancoAPI.Data.Models.ModelViews;
+@model DashboardViewModel;
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container">
+    <div class="row">
+        <h1>Hello, @Model.username</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Incomes</h3>
+            <h5> @Model.income</h5>
+        </div>
+        <div class="col-md-4">
+            <h3>Expenses</h3>
+            <h5>@Model.expense</h5>
+        </div>
+        <div class="col-md-4">
+            <h3>Account Balance</h3>
+            <h5>@Model.balance</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Last Transactions</h3>
+        </div>
+        
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Data</th>
+            <th>Título</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Ação</th>
+        </tr>
+    </thead>
+    <tbody>
+       @* @foreach (var item in Model.timeframedTransactions)
+        {
+            <tr>
+                <td>@item.Created</td>
+                <td>@item.title</td>
+                <td>@item.description</td>
+                <td>@item.description</td>
+                <td>@item.value</td>
+            </tr>
+        }*@
+    </tbody>
+</table>

@@ -1,0 +1,14 @@
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\bin\Debug\net6.0\BancoAPI.Data.deps.json
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\bin\Debug\net6.0\BancoAPI.Data.runtimeconfig.json
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\bin\Debug\net6.0\BancoAPI.Data.dll
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\bin\Debug\net6.0\BancoAPI.Data.pdb
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\obj\Debug\net6.0\BancoAPI.Data.csproj.AssemblyReference.cache
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\obj\Debug\net6.0\BancoAPI.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\obj\Debug\net6.0\BancoAPI.Data.AssemblyInfoInputs.cache
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\obj\Debug\net6.0\BancoAPI.Data.AssemblyInfo.cs
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\obj\Debug\net6.0\BancoAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\obj\Debug\net6.0\BancoAPI.Data.dll
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\obj\Debug\net6.0\refint\BancoAPI.Data.dll
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\obj\Debug\net6.0\BancoAPI.Data.pdb
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\obj\Debug\net6.0\BancoAPI.Data.genruntimeconfig.cache
+C:\Users\Rodrigo Rodrigues\Documents\BE-RRodrigues\BancoAPI\BancoAPI.Data\obj\Debug\net6.0\ref\BancoAPI.Data.dll
